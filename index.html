@@ -103,7 +103,7 @@
         formData.forEach((value, key) => data[key] = value);
 
         // Envia os dados para a planilha Google Sheets
-        fetch('https://script.google.com/macros/s/YOUR_GOOGLE_SCRIPT_URL/exec', {
+        fetch('https://script.google.com/macros/s/AKfycbxntW4olytbjFXU8HjUFC-_KRv9E90D-D8dxn6Ch7-nkmiydhzakN3jz4dDOB9iKWdM/exec', {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
